@@ -1,0 +1,28 @@
+
+
+.carousel {
+  width: 100%;
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.carousel--indicators {
+  text-align: center;
+}
+
+.carousel--indicator,
+.carousel--indicator__active {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  cursor: pointer;
+  margin: 0 4px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.carousel--indicator:hover,
+.carousel--indicator__active {
+  background-color: rgba(0, 0, 0, 0.75);
+}
